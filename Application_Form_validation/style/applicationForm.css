@@ -1,0 +1,239 @@
+body {
+    margin:2%;
+    padding: 1%;
+    border: 5px solid darkslateblue;
+    width: 80%;
+}
+label {
+    font-weight: bold;
+}
+.required {
+    color: red;
+}
+#nameId {
+    width: 100%;
+    border: 2px solid darkgray;
+    padding: 5px;
+}
+#fatherNameId {
+    width: 100%;
+    border: 2px solid darkgray;
+    padding: 5px;
+}
+#emailId {
+    width: 100%;
+    border: 2px solid darkgray;
+    padding: 5px;
+}
+#dobId {
+    width: 100%;
+    border: 2px solid darkgray;
+    padding: 5px;
+}
+#mobileId {
+    width: 100%;
+    border: 2px solid darkgray;
+    padding: 5px;
+}
+#address1Id {
+    width: 100%;
+    border: 2px solid darkgray;
+    padding: 5px;
+}
+#address2Id {
+    width: 100%;
+    border: 2px solid darkgray;
+    padding: 5px;
+}
+#cityId {
+    width: 100%;
+    border: 2px solid darkgray;
+    padding: 5px;
+}
+#stateId {
+    width: 100%;
+    border: 2px solid darkgray;
+    padding: 5px;
+}
+#zipcodeId {
+    width: 100%;
+    border: 2px solid darkgray;
+    padding: 5px;
+}
+#address1Id1 {
+    width: 100%;
+    border: 2px solid darkgray;
+    padding: 5px;
+}
+#address2Id1 {
+    width: 100%;
+    border: 2px solid darkgray;
+    padding: 5px;
+}
+#cityId1 {
+    width: 100%;
+    border: 2px solid darkgray;
+    padding: 5px;
+}
+#stateId1 {
+    width: 100%;
+    border: 2px solid darkgray;
+    padding: 5px;
+}
+#zipcodeId1 {
+    width: 100%;
+    border: 2px solid darkgray;
+    padding: 5px;
+}
+#profilePhotoId {
+    width: 20%;
+    border: 2px solid darkgray;
+    padding: 5px;
+}
+#nameDivId {
+    float: left;
+    padding: 20px;
+}
+#fatherNameDivId {
+    float: left;
+    padding: 20px;
+}
+#emailDivId {
+    clear: both;
+    float: left;
+    padding: 20px;
+}
+#dobDivId {
+    float: left;
+    padding: 20px;
+}
+#mobileDivID {
+    float: left;
+    padding: 20px;
+}
+#address1DivId {
+    clear: both;
+    float: left;
+    padding: 20px;
+}
+#address2DivId {
+    float: left;
+    padding: 20px;
+    margin-top: 18px;
+}
+#cityDivId {
+    clear: both;
+    float: left;
+    padding: 20px;
+}
+#stateDivId {
+    float: left;
+    padding: 20px;
+}
+#zipcodeDivId {
+    float: left;
+    padding: 20px;
+}
+#address1DivId1 {
+    clear: both;
+    float: left;
+    padding: 20px;
+}
+#address2DivId1 {
+    float: left;
+    padding: 20px;
+    margin-top: 18px;
+}
+#cityDivId1 {
+    clear: both;
+    float: left;
+    padding: 20px;
+}
+#stateDivId1 {
+    float: left;
+    padding: 20px;
+}
+#zipcodeDivId1 {
+    float: left;
+    padding: 20px;
+}
+#profilePhotoDivId {
+    clear: both;
+    padding: 20px;
+}
+#submitId {
+    clear: both;
+    padding: 20px;
+}
+#nameReqId {
+    visibility: hidden;
+}
+#nameValidId {
+    visibility: hidden;
+}
+#fatherNameReqId {
+    visibility: hidden;
+}
+#fatherNameValidId {
+    visibility: hidden;
+}
+#emailReqId {
+    visibility: hidden;
+}
+#emailValidId {
+    visibility: hidden;
+}
+#dobValidId {
+    visibility: hidden;
+}
+#dobReqId {
+    visibility: hidden;
+}
+#mobileValidId {
+    visibility: hidden;
+}
+#mobileReqId {
+    visibility: hidden;
+}
+#address1ReqId {
+    visibility: hidden;
+}
+#address2ReqId {
+    visibility: hidden;
+}
+#cityReqId {
+    visibility: hidden;
+}
+#stateReqId {
+    visibility: hidden;
+}
+#zipcodeReqId {
+    visibility: hidden;
+}
+#zipcodeValidId {
+    visibility: hidden;
+}
+#address1ReqId1 {
+    visibility: hidden;
+}
+#address2ReqId1 {
+    visibility: hidden;
+}
+#cityReqId1 {
+    visibility: hidden;
+}
+#stateReqId1 {
+    visibility: hidden;
+}
+#zipcodeReqId1 {
+    visibility: hidden;
+}
+#zipcodeValidId1 {
+    visibility: hidden;
+}
+#profilephotoReqId {
+    visibility: hidden;
+}
+#profilephotoValidId {
+    visibility: hidden;
+}

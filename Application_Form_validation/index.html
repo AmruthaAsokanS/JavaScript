@@ -1,0 +1,170 @@
+<html>
+    <head>
+        <title>Application Form</title>
+        <link rel="stylesheet" href="style/applicationForm.css">
+        <script type="text/javascript" src="script/formValidation.js"></script>
+    </head>
+    <body>
+        <form action="" method="post">
+            <h1>Personal Information</h1>
+            <div id="nameDivId">
+                <div>
+                    <label for="nameId">Name as per ID proof<span class="required">*</span></label> 
+                    <span class="required" id="nameValidId">Special characters and numbers are not allowed</span>  
+                </div>
+                <div>
+                    <input type="text" id="nameId" placeholder="Enter Your Name">
+                    <span class="required" id="nameReqId">Name is Required</span>
+                </div>
+            </div>
+            <div id="fatherNameDivId">
+                <div>
+                    <label for="fatherNameId">Father's Name<span class="required">*</span></label> 
+                    <span class="required" id="fatherNameValidId">Special characters and numbers are not allowed</span>
+                </div>
+                <div>
+                    <input type="text" id="fatherNameId" placeholder="Enter Your Fathers Name">
+                    <span class="required" id="fatherNameReqId">Last Name is Required</span>
+                </div>
+            </div>
+                
+            
+            
+            <div id="emailDivId">
+                <div>
+                    <label for="emailId">Email<span class="required">*</span></label> 
+                    <span class="required" id="emailValidId">Please enter a valid email address</span>
+                </div>
+                <div>
+                    <input type="text" id="emailId" placeholder="Enter Your Email Address">
+                    <span class="required" id="emailReqId">Eamil is Required</span>
+                </div>
+            </div>
+            <div id="dobDivId">
+                <div>
+                    <label for="dobId">Date of Birth<span class="required">*</span></label> 
+                    <span class="required" id="dobValidId">Please enter a valid format</span>
+                </div>
+                <div>
+                    <input type="text" id="dobId" placeholder="Enter Your Date of Birth (dd/mm/yyyy)">
+                    <span class="required" id="dobReqId">Required</span>
+                </div>
+            </div>
+
+            <div id="mobileDivID">   
+                <div>
+                    <label for="mobileId">Mobile Number<span class="required">*</span></label> 
+                    <span class="required" id="mobileValidId">Please enter a valid Mobile Number</span>
+                </div>
+                <div>
+                    <input type="text" id="mobileId" placeholder="Enter Your Mobile Number">
+                    <span class="required" id="mobileReqId">Mobile Number Required</span>
+                </div>
+            </div>
+            
+            <div id="address1DivId">
+                <div>
+                    <label for="">Current Address<span class="required">*</span></label>
+                </div>
+                <div>
+                    <input type="text" id="address1Id" placeholder="Address Line 1">
+                    <span class="required" id="address1ReqId">Required</span>
+                </div>
+            </div>
+            <div id="address2DivId">
+                <div>
+                    <input type="text" id="address2Id" placeholder="Address Line 2">
+                    <span class="required" id="address2ReqId">Required</span>
+                </div>
+            </div>
+            
+            <div id="cityDivId">
+                <div>
+                    <input type="text" id="cityId" placeholder="Enter Your City">
+                    <span class="required" id="cityReqId">City is Required</span>
+                </div>
+            </div>
+            
+            <div id="stateDivId">
+                <div>
+                    <select name="" id="stateId">
+                        <option value="Select State">Select State</option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Karnataka">Karnataka</option>
+                    </select>
+                    <span class="required" id="stateReqId">State is Required</span>
+                </div>
+            </div>
+            
+            <div id="zipcodeDivId">
+                <div>
+                    <input type="text" id="zipcodeId" placeholder="Enter Zipcode">
+                    <span class="required" id="zipcodeValidId">Please enter a valid Zipcode</span>
+                    <span class="required" id="zipcodeReqId">Zipcode is Required</span>
+                </div>
+            </div>
+            
+            <div id="address1DivId1">
+                <div>
+                    <label for="">Permanent Address<span class="required">*</span></label> <input type="checkbox" id="sameAddressId"> Same as Current Address
+                </div>
+                <div>
+                    <input type="text" id="address1Id1" placeholder="Address Line 1">
+                    <span class="required" id="address1ReqId1">Required</span>
+                </div>
+            </div>
+
+            <div id="address2DivId1">
+                <div>
+                    <input type="text" id="address2Id1" placeholder="Address Line 2">
+                    <span class="required" id="address2ReqId1">Required</span>
+                </div>
+            </div>
+
+            <div id="cityDivId1">
+                <div>
+                    <input type="text" id="cityId1" placeholder="Enter Your City">
+                    <span class="required" id="cityReqId1">City is Required</span>
+                </div>
+            </div>
+            
+            <div id="stateDivId1">
+                <div>
+                    <select name="" id="stateId1">
+                        <option value="Select State">Select State</option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Karnataka">Karnataka</option>
+                    </select>
+                    <span class="required" id="stateReqId1">State is Required</span>
+                </div>
+            </div>
+            
+            <div id="zipcodeDivId1">
+                <div>
+                    <input type="text" id="zipcodeId1" placeholder="Enter Zipcode">
+                    <span class="required" id="zipcodeValidId1">Please enter a valid Zipcode</span>
+                    <span class="required" id="zipcodeReqId1">Zipcode is Required</span>
+                </div>
+            </div>
+
+            <div id="profilePhotoDivId">
+                <div>
+                    <label for="profilePhotoId">Upload Profile Photo<span class="required">*</span> (JPG/PNG format only)</label> <span class="required" id="profilephotoValidId">Please enter a valid format</span>
+                </div>
+                <div>
+                    <p>Please upload a photo of yourself. Your face should be clearly visible. Make sure the image size does not exceed 500KB</p>
+                </div> 
+                <div>
+                    <input type="file" value="UPLOAD PHOTO" id="profilePhotoId">
+                    <span class="required" id="profilephotoReqId">Upload your profile photo</span>
+                </div> 
+            </div>
+
+            <div id="submitId">
+                <input type="button" value="Submit" onclick="validate()">
+            </div>
+        </form>
+    </body>
+</html>
